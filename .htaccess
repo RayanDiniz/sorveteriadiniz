@@ -1,6 +1,8 @@
-DirectoryIndex public/index.php
+
 
 RewriteCond %{HTTP_HOST} ^sorveteriadiniz.com$
 RewriteRule ^(.*)$ “http\:\/\/www\.sorveteriadiniz\.com\/$1” [R=301,L]
 RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+DirectoryIndex public/index.php
