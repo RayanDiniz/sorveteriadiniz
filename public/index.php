@@ -1,16 +1,34 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
-    <title>Title</title>
+    <title>Sorveteria Diniz</title>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <link rel="icon" href="favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
+    <link rel="stylesheet" href="../css/global.css" />
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   </head>
   <body>
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+        <a class="navbar-brand m-auto" href="https://sorveteriadiniz.com"><img src="../img/logo001.png" alt="Logo" /></a>
+        
+        <div class="navbar-nav-sm m-auto">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="http://sorveteriadiniz.com/cardapio">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://sorveteriadiniz.com/">Nós</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://sorveteriadiniz.com/">Local</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <div class="footer">
         <footer id="myFooter">
