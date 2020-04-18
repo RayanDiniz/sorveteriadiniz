@@ -64,37 +64,53 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
+    <div class="footer">
+            <footer id="myFooter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 text-center">
+                            <h2 class="logo"><a href="https://sorveteriadiniz.com"> <img src={logo} alt="Logo da Sorveteria Diniz"/> </a></h2>
+                            <ul>
+                                <li><em>Fone</em>: +55 98 3221-3386</li>
+                                <li><em>Email</em>: dinizsorveteria@gmail.com</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-2">
+                            <h5>Local</h5>
+                            <ul>
+                                <li>Rua Sete de Setembro, 1, <br/>Vila Esperança</li>
+                                <li>São Luís, <br/>Maranhão</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-2">
+                            <h5>Sobre-nós</h5>
+                            <ul>
+                                <li><a href="https://sorveteriadiniz.com">Informações da Empresa</a></li>
+                                <li><a href="https://sorveteriadiniz.com">Contato</a></li>
+                                <li><a href="https://sorveteriadiniz.com">Blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-2">
+                            <h5>Suporte</h5>
+                            <ul>
+                                <li><a href="https://sorveteriadiniz.com">FAQ</a></li>
+                                <li><a href="https://sorveteriadiniz.com">Chat</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-2 text-center">
+                        <h5>Siga-nos nas redes sociais</h5>
+                            <div class="social-networks">
+                                <SocialMediaIconsReact iconSize="5" url="https://twitter.com/SorveteriaDiniz" icon="twitter" backgroundColor="rgba(0,0,0,0)"/>
+                                <SocialMediaIconsReact iconSize="5" url="https://www.facebook.com/sorveteriadiniz/" icon="facebook" backgroundColor="rgba(0,0,0,0)"/>
+                                <SocialMediaIconsReact iconSize="5" url= "https://instagram.com/SorveteriaDiniz" icon="instagram" backgroundColor="rgba(0,0,0,0)"/>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
+                <div class="footer-copyright">
+                    <p>© 2020 Copyright - Sorveteria Diniz</p>
                 </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
+            </footer>
         </div>
     </body>
 </html>
