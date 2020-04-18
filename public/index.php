@@ -31,7 +31,7 @@
     </nav>
 
     <div class="">
-        <img src="../img/logo001.png" class="img-fluid" alt="principal"/>
+        <img src="../img/Home.png" class="img-fluid" alt="principal"/>
     </div>
 
     <div class="m-0 text-center bg-warning">
@@ -52,7 +52,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-3 text-center">
-                        <h2 class="logo"><a href="https://sorveteriadiniz.com"> <img src={logo} alt="Logo da Sorveteria Diniz"/> </a></h2>
+                        <h2 class="logo"><a href="https://sorveteriadiniz.com"> <img src="../img/logo001.png" alt="Logo da Sorveteria Diniz"/> </a></h2>
                         <ul>
                             <li><em>Fone</em>: +55 98 3221-3386</li>
                             <li><em>Email</em>: dinizsorveteria@gmail.com</li>
