@@ -7,13 +7,15 @@
     <link rel="icon" href="favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <link rel="stylesheet" href="../css/global.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://sorveteriadiniz.com/css/global.css" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   </head>
   <body>
     <nav class="navbar navbar-expand-sm navbar-light fixed-top">
-        <a class="navbar-brand m-auto" href="https://sorveteriadiniz.com"><img src="../img/logo001.png" alt="Logo" /></a>
+        <a class="navbar-brand m-auto" href="https://sorveteriadiniz.com"><img src="https://sorveteriadiniz.com/img/logo001.png" alt="Logo" /></a>
         
         <div class="navbar-nav-sm m-auto">
             <ul class="nav justify-content-center">
@@ -31,15 +33,19 @@
     </nav>
 
     <div class="">
-        <img src="../img/Home.png" class="img-fluid" alt="principal"/>
+        <img src="https://sorveteriadiniz.com/img/Home.png" class="img-fluid" alt="principal"/>
     </div>
 
-    <div class="m-0 text-center bg-warning">
-        <div class="container mt-6">
-            <img src="../img/perfil.jpg" class="rounded-circle" alt="Rayan Diniz"/>
-        </div>
-        <div class="container rounded mt-3 m-auto bg-light">
-            <p>"Resolvir reabrir esse negocio de familia, pois para mim boas ideias nunca morrem"</p>
+    <div class="container-fluid bg-warning">
+        <div class="row justify-content-center">
+            <div class="col-sm-4 text-center"> 
+                <div class="container text-center">
+                    <img src="https://sorveteriadiniz.com/img/perfil.jpg" class="rounded-circle" alt="Rayan Diniz"/>
+                </div><br/>
+                <div class="container rounded mt-3 m-auto bg-light">
+                    <p>"Reabri esse negócio de família, pois para mim boas ideias nunca morrem"</p>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -52,10 +58,15 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-3 text-center">
-                        <h2 class="logo"><a href="https://sorveteriadiniz.com"> <img src="../img/logo001.png" alt="Logo da Sorveteria Diniz"/> </a></h2>
+                        <h2 class="logo"><a href="https://sorveteriadiniz.com"> <img src="https://sorveteriadiniz.com/img/logo001.png" alt="Logo da Sorveteria Diniz"/> </a></h2>
                         <ul>
                             <li><em>Fone</em>: +55 98 3221-3386</li>
-                            <li><em>Email</em>: dinizsorveteria@gmail.com</li>
+                            <li>
+                                <a class="social-icon" data-tooltip="dinizsorveteria@gmail.com" href="mailto:dinizsorveteria@gmail.com">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                </a>
+                                dinizsorveteria@gmail.com
+                            </li>
                         </ul>
                     </div>
                     <div class="col-sm-2">
@@ -82,16 +93,37 @@
                     </div>
                     <div class="col-sm-2 text-center">
                     <h5>Siga-nos nas redes sociais</h5>
-                        <div class="social-networks">
+                        <!--<div class="social-networks">
                             <SocialMediaIconsReact iconSize="5" url="https://twitter.com/SorveteriaDiniz" icon="twitter" backgroundColor="rgba(0,0,0,0)"/>
                             <SocialMediaIconsReact iconSize="5" url="https://www.facebook.com/sorveteriadiniz/" icon="facebook" backgroundColor="rgba(0,0,0,0)"/>
                             <SocialMediaIconsReact iconSize="5" url= "https://instagram.com/SorveteriaDiniz" icon="instagram" backgroundColor="rgba(0,0,0,0)"/>
+                        </div>-->
+                        <div class="social">
+                           <!-- <a class="social-icon" data-tooltip="LinkedIn" href="https://www.linkedin.com/company/colorlib">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>-->
+                            <a class="social-icon" data-tooltip="Twitter" href="https://twitter.com/SorveteriaDiniz">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a class="social-icon" data-tooltip="Facebook" href="https://www.facebook.com/SorveteriaDiniz">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                            <a class="social-icon" data-tooltip="Instagram" href="https://instagram.com/SorveteriaDiniz">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                            <a class="social-icon" data-tooltip="YouTube" href="https://www.youtube.com/c/SorveteriaDiniz">
+                                <i class="fa fa-youtube" aria-hidden="true"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="footer-copyright">
-                <p>© 2020 Copyright - Sorveteria Diniz</p>
+                <p>© 2020 Copyright - Sorveteria Diniz
+                    <a class="social-icon" data-tooltip="GitHub" href="https://github.com/RayanDiniz/sorveteriadiniz_php">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                </p>
             </div>
         </footer>
     </div>
