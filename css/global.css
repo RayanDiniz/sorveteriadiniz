@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+h1 {
+    color: black;
+    text-align: center;
+}
+
 body {
     font: 400 14px Roboto, sans-serif;
     background: #f0f0f5;
