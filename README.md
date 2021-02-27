@@ -1,11 +1,11 @@
-# Adote um Pet
-> O objetivo desse projeto é criar uma plataforma onde pessoas possam se conectar e doar ou adotar cães.
+# Sorveteria Diniz
+> desenvolvendo.
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-No Brasil, a maioria dos animais de estimações (pets) é de cachorros (54,2 milhões) e felinos (23,9 milhões), num total de 78,1 milhões de animais. Desses, 5% são Animais em Condição de Vulnerabilidade (ACV), o que representa 3,9 milhões de pets. Essa aplicação tem como objetivo lhe facilitar e mudar esse quadro, doe ou adote um cão.
+introdução.
 
 ![](frontend/public/favicon.ico)
 
