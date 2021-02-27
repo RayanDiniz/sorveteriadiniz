@@ -1,13 +1,13 @@
 # Sorveteria Diniz
-> desenvolvendo.
+> Projeto para a Sorveteria Diniz criando seus sistemas web, mobille e desktop.
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-introdução.
+A Sorveteria Diniz é uma empresa familiar com 20 anos de existência que em sua primeira vez tem projeto para suas aplicações online.
 
-![](frontend/public/favicon.ico)
+![](favicon.ico)
 
 ## Meta
 
