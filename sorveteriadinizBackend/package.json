@@ -1,0 +1,28 @@
+{
+  "name": "sorveteriadiniz-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RayanDiniz/sorveteriadiniz-backend.git"
+  },
+  "keywords": [],
+  "author": "Rayan Diniz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RayanDiniz/sorveteriadiniz-backend/issues"
+  },
+  "homepage": "https://github.com/RayanDiniz/sorveteriadiniz-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.12",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
