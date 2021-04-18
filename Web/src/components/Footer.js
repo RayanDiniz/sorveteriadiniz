@@ -1,10 +1,7 @@
 import React from 'react';
-//import { icon } from 'social-icon';
 
-import logo from './img/logo001.png';
-
-import './global.css';
-
+import logo from '../img/logo001.png';
+import './Footer.css';
 
 export default function Footer() {
     return (
