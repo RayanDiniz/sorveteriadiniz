@@ -1,57 +1,56 @@
 import React from 'react';
-
+import { Container } from 'react-bootstrap';
 import logo from '../img/logo001.png';
-import './Footer.css';
 
 export default function Footer() {
     return (
-        <div className="footer">
-            <footer id="myFooter">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-sm-3 text-center">
-                            <h2 className="logo"><a href="https://sorveteriadiniz.com"> <img src={logo} alt="Logo da Sorveteria Diniz"/> </a></h2>
-                            <ul>
-                                <li><em>Fone</em>: +55 98 3221-3386</li>
-                                <li><em>Email</em>: dinizsorveteria@gmail.com</li>
-                            </ul>
-                        </div>
-                        <div className="col-sm-2">
-                            <h5>Local</h5>
-                            <ul>
-                                <li>Rua Sete de Setembro, 1, <br/>Vila Esperança</li>
-                                <li>São Luís, <br/>Maranhão</li>
-                            </ul>
-                        </div>
-                        <div className="col-sm-2">
-                            <h5>Sobre-nós</h5>
-                            <ul>
-                                <li><a href="https://sorveteriadiniz.com">Informações da Empresa</a></li>
-                                <li><a href="https://sorveteriadiniz.com">Contato</a></li>
-                                <li><a href="https://sorveteriadiniz.com">Blog</a></li>
-                            </ul>
-                        </div>
-                        <div className="col-sm-2">
-                            <h5>Suporte</h5>
-                            <ul>
-                                <li><a href="https://sorveteriadiniz.com">FAQ</a></li>
-                                <li><a href="https://sorveteriadiniz.com">Chat</a></li>
-                            </ul>
-                        </div>
-                        <div className="col-sm-2 text-center">
-                        <h5>Siga-nos nas redes sociais</h5>
-                            <div className="social-networks">
-                                <icon iconSize="5" url="https://twitter.com/SorveteriaDiniz" icon="twitter" backgroundColor="rgba(0,0,0,0)"></icon>
-                                <icon iconSize="5" url="https://www.facebook.com/sorveteriadiniz/" icon="facebook" backgroundColor="rgba(0,0,0,0)"></icon>
-                                <icon iconSize="5" url= "https://instagram.com/SorveteriaDiniz" icon="instagram" backgroundColor="rgba(0,0,0,0)"></icon>
-                            </div>
-                        </div>
+        <>
+            <Container className="py-5">
+                <div className="row">
+                    <div className="col-12 col-md text-center">
+                        <img src={logo} width="30" height="30"/>
+                        <small className="d-block mb-3 text-muted">&copy; 2000-2021</small>
+                    </div>
+                    <div className="col-6 col-md">
+                        <h5>Features</h5>
+                        <ul className="list-unstyled text-small">
+                            <li><a className="text-muted" href="#">Algo legal</a></li>
+                            <li><a className="text-muted" href="#">Feature aleatória</a></li>
+                            <li><a className="text-muted" href="#">Recursos para times</a></li>
+                            <li><a className="text-muted" href="#">Coisas para desenvolvedores</a></li>
+                            <li><a className="text-muted" href="#">Outra coisa legal</a></li>
+                            <li><a className="text-muted" href="#">Último item</a></li>
+                        </ul>
+                    </div>
+                    <div className="col-6 col-md">
+                        <h5>Fontes</h5>
+                        <ul className="list-unstyled text-small">
+                            <li><a className="text-muted" href="#">Fonte</a></li>
+                            <li><a className="text-muted" href="#">Nome da fonte</a></li>
+                            <li><a className="text-muted" href="#">Outra fonte</a></li>
+                            <li><a className="text-muted" href="#">Fonte final</a></li>
+                        </ul>
+                    </div>
+                    <div className="col-6 col-md">
+                        <h5>Fontes</h5>
+                        <ul className="list-unstyled text-small">
+                            <li><a className="text-muted" href="#">Negócios</a></li>
+                            <li><a className="text-muted" href="#">Educação</a></li>
+                            <li><a className="text-muted" href="#">Governo</a></li>
+                            <li><a className="text-muted" href="#">Jogos</a></li>
+                        </ul>
+                    </div>
+                    <div className="col-6 col-md">
+                        <h5>Sobre</h5>
+                        <ul className="list-unstyled text-small">
+                            <li><a className="text-muted" href="#">Equipe</a></li>
+                            <li><a className="text-muted" href="#">Locais</a></li>
+                            <li><a className="text-muted" href="#">Privacidade</a></li>
+                            <li><a className="text-muted" href="#">Termos</a></li>
+                        </ul>
                     </div>
                 </div>
-                <div className="footer-copyright">
-                    <p>© 2020 Copyright - Sorveteria Diniz</p>
-                </div>
-            </footer>
-        </div>
+            </Container>
+        </>
     )
 };
