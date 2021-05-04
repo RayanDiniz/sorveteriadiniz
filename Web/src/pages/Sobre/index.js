@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
 
 import Barra from '../../components/Barra';
 import Footer from '../../components/Footer';

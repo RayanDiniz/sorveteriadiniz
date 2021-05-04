@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import logo from '../img/logo001.png';
 
-export default function Footer() {
+export default () => {
     return (
         <>
             <Container className="py-5">
@@ -52,5 +52,5 @@ export default function Footer() {
                 </div>
             </Container>
         </>
-    )
-};
+    );
+}
